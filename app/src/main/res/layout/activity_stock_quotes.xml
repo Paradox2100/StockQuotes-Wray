@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stock_quotes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mobileappdev.stockquotes_wray.StockQuotes">
+
+    <EditText
+        android:id="@+id/enterSymbol"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:hint="Enter Stock Symbol here"
+        android:textColorHint="#808080"
+        android:background="#00CED1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/Symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbol: "
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/LastTradePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Trade Price: "
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/LastTradeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Trade Time: "
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change: "
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Range: "
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/GetQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Quote"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+
+</RelativeLayout>
